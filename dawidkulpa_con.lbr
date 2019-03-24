@@ -1351,7 +1351,8 @@
 </deviceset>
 <deviceset name="SERVO_CONN" uservalue="yes">
 <description>Servo connector&lt;p&gt;
-1x3</description>
+1x3
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONN_SERVO" x="0" y="0"/>
 </gates>

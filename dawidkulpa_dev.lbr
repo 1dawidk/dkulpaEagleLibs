@@ -2697,6 +2697,8 @@ Fixed reverse breakdown voltages of:&lt;/br&gt;
 </devices>
 </deviceset>
 <deviceset name="LMC7101">
+<description>Low-Power Operational Amplifier
+&lt;p&gt;1-MHz Gain Bandwidth&lt;br/&gt;Similar to Popular LMC6482 and LMC6484&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="OP_AMP" x="0" y="0"/>
 </gates>
@@ -3121,6 +3123,13 @@ with Schmitt Trigger input.&lt;/p&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="M41T81">
+<description>Real-time clock with alarm
+&lt;p&gt;
+I2C 400kHz&lt;br/&gt;
+Counters for tenths/hundredths of seconds,
+seconds, minutes, hours, day, date, month,
+year, and century
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="M61T81" x="0" y="0"/>
 </gates>
@@ -3465,6 +3474,10 @@ with Schmitt Trigger input.&lt;/p&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="MCP4725">
+<description>12-Bit Digital-to-Analog converter
+&lt;p&gt;
+I2C up to 400kHz
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="MCP4725" x="0" y="-5.08"/>
 </gates>
