@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -344,6 +344,7 @@
 </symbols>
 <devicesets>
 <deviceset name="SWITCH">
+<description>Tact switch</description>
 <gates>
 <gate name="G$1" symbol="SWITCH" x="0" y="0"/>
 </gates>
@@ -378,6 +379,7 @@
 </devices>
 </deviceset>
 <deviceset name="SWITCH_GND">
+<description>Tact switch with GND pin</description>
 <gates>
 <gate name="G$1" symbol="SWITCH_GND" x="0" y="0"/>
 </gates>
@@ -388,17 +390,6 @@
 <connect gate="G$1" pin="P2" pad="P2"/>
 <connect gate="G$1" pin="PAD" pad="PAD1"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ONOFF_SWITCH">
-<gates>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>

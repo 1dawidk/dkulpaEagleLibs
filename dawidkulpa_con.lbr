@@ -1065,6 +1065,7 @@
 </symbols>
 <devicesets>
 <deviceset name="SD_CARD">
+<description>Micro SD Card socket</description>
 <gates>
 <gate name="G$1" symbol="MICROSD" x="-33.02" y="-7.62"/>
 </gates>
@@ -1088,6 +1089,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_02" uservalue="yes">
+<description>1x2 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_02" x="0" y="0"/>
 </gates>
@@ -1131,6 +1133,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_03">
+<description>1x3 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_03" x="0" y="0"/>
 </gates>
@@ -1168,6 +1171,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_04">
+<description>1x4 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_04" x="0" y="0"/>
 </gates>
@@ -1208,6 +1212,7 @@
 </devices>
 </deviceset>
 <deviceset name="RPI_ZERO_CONN">
+<description>Raspberry Pi Zero 2x40 connector</description>
 <gates>
 <gate name="G$1" symbol="RPI_ZERO" x="30.48" y="-2.54"/>
 </gates>
@@ -1253,6 +1258,7 @@
 </devices>
 </deviceset>
 <deviceset name="FPC_30">
+<description>30 pins FPC connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_30" x="0" y="0" addlevel="must"/>
 <gate name="G$2" symbol="CONN_02" x="0" y="-45.72" addlevel="must"/>
@@ -1300,6 +1306,7 @@
 </devices>
 </deviceset>
 <deviceset name="USB_OTG">
+<description>USB socket</description>
 <gates>
 <gate name="J$1" symbol="USB_OTG" x="-2.54" y="2.54"/>
 </gates>
@@ -1343,6 +1350,8 @@
 </devices>
 </deviceset>
 <deviceset name="SERVO_CONN" uservalue="yes">
+<description>Servo connector
+1x3</description>
 <gates>
 <gate name="G$1" symbol="CONN_SERVO" x="0" y="0"/>
 </gates>
@@ -1360,6 +1369,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_06_02">
+<description>2x6 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_02_06" x="5.08" y="2.54"/>
 </gates>
@@ -1386,6 +1396,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_04_03">
+<description>3x4 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_03_04" x="0" y="2.54"/>
 </gates>
@@ -1412,6 +1423,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_06">
+<description>1x6 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_06" x="0" y="2.54"/>
 </gates>
@@ -1458,6 +1470,7 @@
 </devices>
 </deviceset>
 <deviceset name="FPC_06">
+<description>6 pins FPC connector</description>
 <gates>
 <gate name="G$1" symbol="FPC_06" x="0" y="0"/>
 </gates>
@@ -1479,6 +1492,7 @@
 </devices>
 </deviceset>
 <deviceset name="SIM_6">
+<description>Sim card socket</description>
 <gates>
 <gate name="G$1" symbol="MICROSIM" x="5.08" y="-5.08"/>
 </gates>
@@ -1514,6 +1528,7 @@
 </devices>
 </deviceset>
 <deviceset name="ANTENNA">
+<description>Antenna connector</description>
 <gates>
 <gate name="G$1" symbol="ANTENN" x="0" y="0"/>
 </gates>
@@ -1539,6 +1554,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_05" uservalue="yes">
+<description>1x5 connector</description>
 <gates>
 <gate name="J$1" symbol="CONN_05" x="0" y="2.54"/>
 </gates>
@@ -1593,23 +1609,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMD_ANTENNA">
-<gates>
-<gate name="G$1" symbol="ANTENN" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="SMD_CERAMIC_ANT">
-<connects>
-<connect gate="G$1" pin="GROUND" pad="GND1 GND2"/>
-<connect gate="G$1" pin="SIG" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FPC_05">
+<description>5 pins FPC connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_05_P" x="-2.54" y="2.54"/>
 </gates>
@@ -1630,6 +1631,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_01">
+<description>1x1 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_01" x="0" y="-2.54"/>
 </gates>
@@ -1645,6 +1647,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_10">
+<description>1x10 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_10" x="0" y="0"/>
 </gates>
@@ -1669,6 +1672,7 @@
 </devices>
 </deviceset>
 <deviceset name="CONN_07">
+<description>1x7 connector</description>
 <gates>
 <gate name="G$1" symbol="CONN_07" x="-5.08" y="0"/>
 </gates>
@@ -1690,6 +1694,7 @@
 </devices>
 </deviceset>
 <deviceset name="RPI_BPLUS_CONN">
+<description>Raspberry Pi B+ 2x40 connector</description>
 <gates>
 <gate name="G$1" symbol="RPI_BPLUS" x="0" y="0"/>
 </gates>
