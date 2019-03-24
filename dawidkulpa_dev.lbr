@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2676,6 +2676,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 </devices>
 </deviceset>
 <deviceset name="LM4040">
+<description>Shunt Voltage Reference
+&lt;p&gt;
+Fixed reverse breakdown voltages of:&lt;/br&gt;
+2.048 V, 2.5 V, 3 V, 4.096 V, 5 V, 8.192 V, and 10 V
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM4040" x="0" y="0"/>
 </gates>
@@ -2711,8 +2716,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 </devices>
 </deviceset>
 <deviceset name="NC7S14" uservalue="yes">
-<description>&lt;b&gt;NOT Gate&lt;/b&gt;
-
+<description>NOT Gate
 &lt;p&gt;ON Semiconductor&lt;br&gt;
 Single high performance CMOS Inverter
 with Schmitt Trigger input.&lt;/p&gt;</description>
@@ -2726,25 +2730,6 @@ with Schmitt Trigger input.&lt;/p&gt;</description>
 <connect gate="G$1" pin="VCC" pad="5"/>
 <connect gate="G$1" pin="X" pad="2"/>
 <connect gate="G$1" pin="~X" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FBR">
-<description>Full Bridge Rectifier</description>
-<gates>
-<gate name="G$1" symbol="FULL_BRIDGET_RECTIFIER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MB-25">
-<connects>
-<connect gate="G$1" pin="AC1" pad="AC1"/>
-<connect gate="G$1" pin="AC2" pad="AC2"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3158,8 +3143,9 @@ with Schmitt Trigger input.&lt;/p&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="HD-K123" prefix="DIS">
-<description>&lt;b&gt;LED DISPLAY&lt;/b&gt;&lt;p&gt;
- 2 x 1 character 7 segment, decimal points right</description>
+<description>Seven segment dispplay&lt;p&gt;
+ 2 x 1 character 7 segment, decimal points right
+&lt;/p&gt;</description>
 <gates>
 <gate name="S" symbol="HD7-K2" x="0" y="0"/>
 </gates>
@@ -3200,7 +3186,7 @@ with Schmitt Trigger input.&lt;/p&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="CR2032H" prefix="G">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
+<description>Coin battery socket</description>
 <gates>
 <gate name="1" symbol="1V2+2" x="0" y="0"/>
 </gates>
@@ -3499,6 +3485,9 @@ with Schmitt Trigger input.&lt;/p&gt;</description>
 </devices>
 </deviceset>
 <deviceset name="A3901">
+<description>Motor Driver&lt;p&gt;
+Dual, Full Bridge, Low Voltage
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="A3901" x="0" y="7.62"/>
 </gates>
