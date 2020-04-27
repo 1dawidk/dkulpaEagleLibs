@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -560,9 +560,6 @@
 <wire x1="3.75" y1="2.5" x2="3.75" y2="1.25" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="2.75" x2="-3.75" y2="2.5" width="0.127" layer="21" curve="90"/>
 <wire x1="3.5" y1="2.75" x2="3.75" y2="2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-3.75" y1="-1.25" x2="-3.75" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="-2.25" x2="3.75" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-2.25" x2="3.75" y2="-1.25" width="0.127" layer="21"/>
 </package>
 <package name="RAW_4">
 <smd name="P2" x="-1" y="0" dx="2" dy="1" layer="1" rot="R90"/>
@@ -617,6 +614,98 @@
 <smd name="P4" x="1.5" y="0" dx="1" dy="0.75" layer="1" rot="R90"/>
 <smd name="P1" x="-3" y="0" dx="1" dy="0.75" layer="1" rot="R90"/>
 <smd name="P5" x="3" y="0" dx="1" dy="0.75" layer="1" rot="R90"/>
+</package>
+<package name="USBA-LP-SMD">
+<hole x="-2.5" y="0" drill="1.4"/>
+<hole x="2.5" y="0" drill="1.4"/>
+<smd name="P3" x="-1" y="2.7" dx="1" dy="2.7" layer="1" rot="R180"/>
+<smd name="P4" x="-3" y="2.7" dx="1" dy="2.7" layer="1" rot="R180"/>
+<smd name="P2" x="1" y="2.7" dx="1" dy="2.7" layer="1" rot="R180"/>
+<smd name="P1" x="3" y="2.7" dx="1" dy="2.7" layer="1" rot="R180"/>
+<pad name="P6" x="-5.85" y="0" drill="2.2" diameter="3.2"/>
+<pad name="P5" x="5.85" y="0" drill="2.2" diameter="3.2"/>
+<wire x1="-6" y1="-2" x2="-6" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="-3" x2="6" y2="-2" width="0.127" layer="21"/>
+<wire x1="-6" y1="-3" x2="6" y2="-3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-4.25" y1="1" x2="4.25" y2="1" width="0.127" layer="21"/>
+</package>
+<package name="MX-502570-0893">
+<smd name="P1" x="-2.7" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P2" x="-1.6" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P4" x="0.6" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P5" x="1.7" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P6" x="2.8" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P7" x="3.9" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P3" x="-0.5" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P8" x="5" y="4.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="P9" x="-6.45" y="7.1" dx="1.7" dy="1.4" layer="1" rot="R90"/>
+<smd name="P10" x="6.45" y="7.1" dx="1.7" dy="1.4" layer="1" rot="R90"/>
+<smd name="P11" x="6.575" y="-2.65" dx="1.15" dy="1.5" layer="1"/>
+<smd name="P12" x="6" y="-7.375" dx="1.15" dy="1.5" layer="1" rot="R90"/>
+<smd name="P13" x="-0.6" y="-7.375" dx="1.15" dy="1.5" layer="1" rot="R90"/>
+<smd name="P14" x="-2.9" y="-7.375" dx="1.15" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-6.9" y1="6" x2="-6.9" y2="-7.7" width="0.127" layer="21"/>
+<wire x1="6.9" y1="6" x2="6.9" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="-7.7" x2="-6.9" y2="-7.7" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-7.7" x2="5" y2="-7.7" width="0.127" layer="21"/>
+<wire x1="6.9" y1="-3.7" x2="6.9" y2="-7.7" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="7.8" x2="5.5" y2="7.8" width="0.127" layer="21"/>
+<rectangle x1="4" y1="-6.5" x2="6.9" y2="-5.1" layer="39"/>
+<rectangle x1="6.154" y1="-1.654" x2="6.654" y2="-0.654" layer="39" rot="R180"/>
+<rectangle x1="0.604" y1="-7.696" x2="1.104" y2="-6.696" layer="39" rot="R270"/>
+</package>
+<package name="XT30PW-M">
+<pad name="MNT1" x="-5.5" y="0" drill="1.1" diameter="2.5"/>
+<pad name="MNT2" x="5.5" y="0" drill="1.1" diameter="2.5"/>
+<pad name="V+" x="-2.5" y="-10" drill="1.8" diameter="3.6"/>
+<pad name="V-" x="2.5" y="-10" drill="1.8" diameter="3.6"/>
+<wire x1="-4.95" y1="3.1" x2="4.95" y2="3.1" width="0.127" layer="21"/>
+<wire x1="4.95" y1="3.1" x2="4.95" y2="1.5" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-1.5" x2="4.95" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="3.1" x2="-4.95" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-1.5" x2="-4.95" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="-5.9" x2="4.95" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="6.65" y1="1" x2="6.65" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-8" x2="-3.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-8" x2="-1.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-8" x2="1.5" y2="-6" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-6" x2="3.5" y2="-8" width="0.127" layer="21"/>
+<wire x1="-3" y1="-7" x2="-2" y2="-7" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-6.5" x2="-2.5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-7" x2="3" y2="-7" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="1.5" x2="-6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="1.5" x2="-6.65" y2="0.85" width="0.127" layer="21" curve="90"/>
+<wire x1="-4.95" y1="-1.5" x2="-6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-1.5" x2="-6.65" y2="-0.85" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.95" y1="-1.5" x2="6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6" y1="-1.5" x2="6.65" y2="-0.85" width="0.127" layer="21" curve="90"/>
+<wire x1="4.95" y1="1.5" x2="6" y2="1.5" width="0.127" layer="21"/>
+<wire x1="6" y1="1.5" x2="6.65" y2="0.85" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="XT30PW-F">
+<pad name="V-" x="-2.5" y="-5" drill="1.8" diameter="3.6"/>
+<pad name="V+" x="2.5" y="-5" drill="1.8" diameter="3.6"/>
+<pad name="MNT1" x="-5.5" y="0" drill="1.1" diameter="2.5"/>
+<pad name="MNT2" x="5.5" y="0" drill="1.1" diameter="2.5"/>
+<wire x1="-4.45" y1="9.05" x2="4.45" y2="9.05" width="0.127" layer="21"/>
+<wire x1="4.95" y1="3" x2="4.45" y2="3" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="3" x2="-4.45" y2="3" width="0.127" layer="21"/>
+<wire x1="-4.45" y1="3" x2="-4.45" y2="9.05" width="0.127" layer="21"/>
+<wire x1="4.45" y1="3" x2="4.45" y2="9.05" width="0.127" layer="21"/>
+<wire x1="-4.95" y1="3" x2="-4.95" y2="2" width="0.127" layer="21"/>
+<wire x1="4.95" y1="3" x2="4.95" y2="2" width="0.127" layer="21"/>
+<wire x1="-4" y1="-1.25" x2="-3.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.25" x2="3.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.25" x2="4" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3" x2="-3.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-3" x2="-1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-3" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3" x2="3.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.25" x2="3" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2.25" x2="-2" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1086,6 +1175,22 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="MOLEX" package="MX-502570-0893">
+<connects>
+<connect gate="G$1" pin="CK/SCK" pad="P5"/>
+<connect gate="G$1" pin="CMD/MOSI" pad="P3"/>
+<connect gate="G$1" pin="D0/MISO" pad="P7"/>
+<connect gate="G$1" pin="D1" pad="P8"/>
+<connect gate="G$1" pin="D2" pad="P1"/>
+<connect gate="G$1" pin="D3/CS" pad="P2"/>
+<connect gate="G$1" pin="GND" pad="P6 P9 P10 P11 P12 P14"/>
+<connect gate="G$1" pin="SENSE" pad="P13"/>
+<connect gate="G$1" pin="VCC" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_02" uservalue="yes">
@@ -1125,6 +1230,24 @@
 <connects>
 <connect gate="G$1" pin="P1" pad="P1"/>
 <connect gate="G$1" pin="P2" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="XT30PW-M" package="XT30PW-M">
+<connects>
+<connect gate="G$1" pin="P1" pad="V+"/>
+<connect gate="G$1" pin="P2" pad="MNT1 MNT2 V-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="XT30PW-F" package="XT30PW-F">
+<connects>
+<connect gate="G$1" pin="P1" pad="V+"/>
+<connect gate="G$1" pin="P2" pad="MNT1 MNT2 V-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1341,6 +1464,18 @@
 <connect gate="J$1" pin="D-" pad="P2"/>
 <connect gate="J$1" pin="GND" pad="P5 PAD1 PAD2 PAD3 PAD4 PAD5 PAD6"/>
 <connect gate="J$1" pin="OTG" pad="P4"/>
+<connect gate="J$1" pin="VCC" pad="P1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="USBA-LP-SMD" package="USBA-LP-SMD">
+<connects>
+<connect gate="J$1" pin="D+" pad="P3"/>
+<connect gate="J$1" pin="D-" pad="P2"/>
+<connect gate="J$1" pin="GND" pad="P4"/>
+<connect gate="J$1" pin="OTG" pad="P5 P6"/>
 <connect gate="J$1" pin="VCC" pad="P1"/>
 </connects>
 <technologies>
