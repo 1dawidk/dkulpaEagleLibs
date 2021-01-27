@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -112,7 +112,7 @@
 <pad name="4" x="0" y="-3.81" drill="1" diameter="1.7"/>
 <pad name="1" x="0" y="3.81" drill="1" diameter="1.7"/>
 </package>
-<package name="WS-03S">
+<package name="JST-PH-B3">
 <pad name="P$1" x="0" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$2" x="-2" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$3" x="2" y="0" drill="0.8" diameter="1.3"/>
@@ -121,7 +121,7 @@
 <wire x1="4" y1="-3" x2="-4" y2="-3" width="0.127" layer="21"/>
 <wire x1="-4" y1="-3" x2="-4" y2="2" width="0.127" layer="21"/>
 </package>
-<package name="WS-04S">
+<package name="JST-PH-B4">
 <pad name="P$1" x="-1" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$2" x="-3" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$3" x="1" y="0" drill="0.8" diameter="1.3"/>
@@ -131,7 +131,7 @@
 <wire x1="5" y1="-3" x2="-5" y2="-3" width="0.127" layer="21"/>
 <wire x1="-5" y1="-3" x2="-5" y2="2" width="0.127" layer="21"/>
 </package>
-<package name="WS-05S">
+<package name="JST-PH-B5">
 <pad name="P$1" x="0" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$2" x="-2" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$3" x="-4" y="0" drill="0.8" diameter="1.3"/>
@@ -142,7 +142,7 @@
 <wire x1="6" y1="-3" x2="-6" y2="-3" width="0.127" layer="21"/>
 <wire x1="-6" y1="-3" x2="-6" y2="2" width="0.127" layer="21"/>
 </package>
-<package name="WS-02S">
+<package name="JST-PH-B2">
 <pad name="P$1" x="-1" y="0" drill="0.8" diameter="1.3"/>
 <pad name="P$2" x="1" y="0" drill="0.8" diameter="1.3"/>
 <wire x1="-3" y1="2" x2="-3" y2="-3" width="0.127" layer="21"/>
@@ -162,7 +162,7 @@
 <wire x1="7" y1="-3" x2="-7" y2="-3" width="0.127" layer="21"/>
 <wire x1="-7" y1="-3" x2="-7" y2="2" width="0.127" layer="21"/>
 </package>
-<package name="XH_6">
+<package name="JST-PH-B6">
 <wire x1="-8.75" y1="-2.35" x2="8.75" y2="-2.35" width="0.127" layer="21"/>
 <wire x1="-8.75" y1="3.4" x2="8.75" y2="3.4" width="0.127" layer="21"/>
 <wire x1="-8.75" y1="3.4" x2="-8.75" y2="-2.35" width="0.127" layer="21"/>
@@ -707,6 +707,188 @@
 <wire x1="-3" y1="-2.25" x2="-2" y2="-2.25" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1.75" x2="2.5" y2="-2.75" width="0.127" layer="21"/>
 </package>
+<package name="XT60PW-M">
+<pad name="V-" x="-3.6" y="-6" drill="3" diameter="5"/>
+<pad name="V+" x="3.6" y="-6" drill="3" diameter="5"/>
+<pad name="MNT1" x="-6.75" y="0" drill="2" diameter="3"/>
+<pad name="MNT2" x="6.75" y="0" drill="2" diameter="3"/>
+<wire x1="-7.75" y1="10.35" x2="7.75" y2="10.35" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="-4" x2="-6" y2="-7.85" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-4" x2="6" y2="-7.85" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="-4" x2="-7.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="10.35" x2="-7.75" y2="2" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-4" x2="7.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="7.75" y1="10.35" x2="7.75" y2="2" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-7.85" x2="-1.05" y2="-7.85" width="0.127" layer="21"/>
+</package>
+<package name="JST-ZH-S6">
+<pad name="P1" x="-3.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P2" x="-2.25" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P3" x="-0.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P4" x="0.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P5" x="2.25" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P6" x="3.75" y="0" drill="0.7" diameter="1.2"/>
+<wire x1="-5.25" y1="1.4" x2="5.25" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-5.25" y1="1.4" x2="-5.25" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-5.25" y1="-4.6" x2="5.25" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="5.25" y1="-4.6" x2="5.25" y2="1.4" width="0.1524" layer="21"/>
+<text x="-5.25" y="2" size="1.016" layer="21">&gt;NAME</text>
+</package>
+<package name="JST-ZH-S5">
+<pad name="P1" x="-3" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P2" x="-1.5" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P3" x="0" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P4" x="1.5" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P5" x="3" y="0" drill="0.7" diameter="1.2"/>
+<wire x1="-4.5" y1="1.4" x2="4.5" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="1.4" x2="-4.5" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-4.6" x2="4.5" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-4.6" x2="4.5" y2="1.4" width="0.1524" layer="21"/>
+<text x="-4.5" y="2" size="1.016" layer="21">&gt;NAME</text>
+</package>
+<package name="JST-ZH-S2">
+<pad name="P1" x="-0.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P2" x="0.75" y="0" drill="0.7" diameter="1.2"/>
+<wire x1="-2.25" y1="1.4" x2="2.25" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-2.25" y1="1.4" x2="-2.25" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-2.25" y1="-4.6" x2="2.25" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="2.25" y1="-4.6" x2="2.25" y2="1.4" width="0.1524" layer="21"/>
+<text x="-4.5" y="2" size="1.016" layer="21">&gt;NAME</text>
+</package>
+<package name="JST-ZH-S8">
+<pad name="P1" x="-5.25" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P2" x="-3.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P3" x="-2.25" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P4" x="-0.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P5" x="0.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P6" x="2.25" y="0" drill="0.7" diameter="1.2"/>
+<wire x1="-6.75" y1="1.4" x2="6.75" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-6.75" y1="1.4" x2="-6.75" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-6.75" y1="-4.6" x2="6.75" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="6.75" y1="-4.6" x2="6.75" y2="1.4" width="0.1524" layer="21"/>
+<text x="-5.25" y="2" size="1.016" layer="21">&gt;NAME</text>
+<pad name="P7" x="3.75" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P8" x="5.25" y="0" drill="0.7" diameter="1.2"/>
+</package>
+<package name="JST-ZH-S7">
+<pad name="P1" x="-4.5" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P2" x="-3" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P3" x="-1.5" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P4" x="0" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P5" x="1.5" y="0" drill="0.7" diameter="1.2"/>
+<pad name="P6" x="3" y="0" drill="0.7" diameter="1.2"/>
+<wire x1="-6" y1="1.4" x2="6" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-6" y1="1.4" x2="-6" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-6" y1="-4.6" x2="6" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="6" y1="-4.6" x2="6" y2="1.4" width="0.1524" layer="21"/>
+<text x="-5.25" y="2" size="1.016" layer="21">&gt;NAME</text>
+<pad name="P7" x="4.5" y="0" drill="0.7" diameter="1.2"/>
+</package>
+<package name="JST-SR-S2">
+<smd name="P1" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-1.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="1.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-1" y1="-4.575" x2="1" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="1" y1="-0.325" x2="2" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="2" y1="-0.325" x2="2" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-0.325" x2="-2" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-0.325" x2="-2" y2="-2.75" width="0.1524" layer="21"/>
+<text x="-2.5" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="JST-SR-S3">
+<smd name="P1" x="-1" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="0" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-2.3" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="2.3" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="-4.575" x2="1.5" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-0.325" x2="2.5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-0.325" x2="2.5" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-0.325" x2="-2.5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-0.325" x2="-2.5" y2="-2.75" width="0.1524" layer="21"/>
+<smd name="P3" x="1" y="0" dx="0.6" dy="1.55" layer="1"/>
+<text x="-3" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="JST-SR-S4">
+<smd name="P1" x="-1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-2.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="2.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-2" y1="-4.575" x2="2" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="2" y1="-0.325" x2="3" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="3" y1="-0.325" x2="3" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-0.325" x2="-3" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-0.325" x2="-3" y2="-2.75" width="0.1524" layer="21"/>
+<smd name="P3" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P4" x="1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<text x="-3.5" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="JST-SR-S5">
+<smd name="P1" x="-2" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="-1" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-3.3" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="3.3" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="-4.575" x2="2.5" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-0.325" x2="3.5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-0.325" x2="3.5" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-0.325" x2="-3.5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-0.325" x2="-3.5" y2="-2.75" width="0.1524" layer="21"/>
+<smd name="P3" x="0" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P4" x="1" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P5" x="2" y="0" dx="0.6" dy="1.55" layer="1"/>
+<text x="-4" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="JST-SR-S6">
+<smd name="P1" x="-2.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="-1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-3.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="3.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-3" y1="-4.575" x2="3" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="3" y1="-0.325" x2="4" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="4" y1="-0.325" x2="4" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-0.325" x2="-4" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-4" y1="-0.325" x2="-4" y2="-2.75" width="0.1524" layer="21"/>
+<smd name="P3" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P4" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P5" x="1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P6" x="2.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<text x="-4.5" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="JST-SR-S7">
+<smd name="P1" x="-3" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="-2" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-4.3" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="4.3" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="-4.575" x2="3.5" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-0.325" x2="4.5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="4.5" y1="-0.325" x2="4.5" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-0.325" x2="-4.5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-0.325" x2="-4.5" y2="-2.75" width="0.1524" layer="21"/>
+<smd name="P3" x="-1" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P4" x="0" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P5" x="1" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P6" x="2" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P7" x="3" y="0" dx="0.6" dy="1.55" layer="1"/>
+<text x="-5" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="JST-SR-S8">
+<smd name="P1" x="-3.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P2" x="-2.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="M1" x="-4.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="M2" x="4.8" y="-3.875" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<wire x1="-4" y1="-4.575" x2="4" y2="-4.575" width="0.1524" layer="21"/>
+<wire x1="4" y1="-0.325" x2="5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="5" y1="-0.325" x2="5" y2="-2.75" width="0.1524" layer="21"/>
+<wire x1="-4" y1="-0.325" x2="-5" y2="-0.325" width="0.1524" layer="21"/>
+<wire x1="-5" y1="-0.325" x2="-5" y2="-2.75" width="0.1524" layer="21"/>
+<smd name="P3" x="-1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P4" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P5" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P6" x="1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P7" x="2.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="P8" x="3.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<text x="-5.5" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MICROSD">
@@ -1151,6 +1333,63 @@
 <pin name="ID_SD" x="17.78" y="-27.94" length="middle" rot="R180"/>
 <pin name="ID_SC" x="17.78" y="-33.02" length="middle" rot="R180"/>
 </symbol>
+<symbol name="RPI_4B">
+<pin name="5V" x="30.48" y="-43.18" length="middle" rot="R180"/>
+<pin name="3V3" x="30.48" y="-48.26" length="middle" rot="R180"/>
+<pin name="GND" x="30.48" y="-53.34" length="middle" rot="R180"/>
+<pin name="GPIO17" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO26" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="GPIO25" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="GPIO24" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPIO6" x="-30.48" y="2.54" length="middle"/>
+<pin name="GPIO7(CE1)" x="-30.48" y="-2.54" length="middle"/>
+<pin name="GPIO8(CE0)" x="-30.48" y="-7.62" length="middle"/>
+<pin name="GPIO13(PWM1)" x="-30.48" y="-33.02" length="middle"/>
+<pin name="GPIO14(TXD)" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="GPIO12(PWM0)" x="-30.48" y="-27.94" length="middle"/>
+<pin name="GPIO23" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO22" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="(PCM_DOUT)GPIO21" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="(PCM_DIN)GPIO20" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="(PCM_FS)GPIO19" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO5" x="-30.48" y="7.62" length="middle"/>
+<pin name="GPIO11(SCLK)" x="-30.48" y="-22.86" length="middle"/>
+<pin name="GPIO9(MISO)" x="-30.48" y="-12.7" length="middle"/>
+<pin name="GPIO10(MOSI)" x="-30.48" y="-17.78" length="middle"/>
+<pin name="GPIO0(ID_SD)" x="-30.48" y="33.02" length="middle"/>
+<pin name="GPIO4(GPCLK0)" x="-30.48" y="12.7" length="middle"/>
+<pin name="GPIO3(SCL)" x="-30.48" y="17.78" length="middle"/>
+<pin name="GPIO2(SDA)" x="-30.48" y="22.86" length="middle"/>
+<pin name="(PCM_CLK)GPIO18" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO16" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="GPIO15(RXD)" x="30.48" y="27.94" length="middle" rot="R180"/>
+<wire x1="-25.4" y1="35.56" x2="25.4" y2="35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-35.56" x2="-25.4" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-35.56" x2="-25.4" y2="35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-40.64" x2="15.24" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-40.64" x2="15.24" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-55.88" x2="25.4" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-55.88" x2="25.4" y2="-40.64" width="0.254" layer="94"/>
+<pin name="(ID_SC)GPIO1" x="-30.48" y="27.94" length="middle"/>
+<pin name="GPIO27" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<text x="-25.4" y="38.1" size="1.778" layer="96">Raspberry Pi 4</text>
+</symbol>
+<symbol name="CONN_08">
+<pin name="P2" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="P3" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="P1" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="P4" x="12.7" y="0" length="middle" rot="R180"/>
+<wire x1="1.27" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="1.27" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-22.86" x2="1.27" y2="17.78" width="0.254" layer="94"/>
+<text x="-1.27" y="2.54" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+<pin name="P5" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="P6" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="P7" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="P8" x="12.7" y="-20.32" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SD_CARD">
@@ -1208,7 +1447,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="WS" package="WS-02S">
+<device name="JST-PH" package="JST-PH-B2">
 <connects>
 <connect gate="G$1" pin="P1" pad="P$1"/>
 <connect gate="G$1" pin="P2" pad="P$2"/>
@@ -1253,6 +1492,33 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="XT60PW-M" package="XT60PW-M">
+<connects>
+<connect gate="G$1" pin="P1" pad="V+"/>
+<connect gate="G$1" pin="P2" pad="V-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-ZH" package="JST-ZH-S2">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SR" package="JST-SR-S2">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_03">
@@ -1281,11 +1547,21 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="WS" package="WS-03S">
+<device name="WS" package="JST-PH-B3">
 <connects>
 <connect gate="G$1" pin="P1" pad="P$1"/>
 <connect gate="G$1" pin="P2" pad="P$2"/>
 <connect gate="G$1" pin="P3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SR" package="JST-SR-S3">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1321,12 +1597,23 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="WS" package="WS-04S">
+<device name="WS" package="JST-PH-B4">
 <connects>
 <connect gate="G$1" pin="P1" pad="P$1"/>
 <connect gate="G$1" pin="P2" pad="P$2"/>
 <connect gate="G$1" pin="P3" pad="P$3"/>
 <connect gate="G$1" pin="P4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SR" package="JST-SR-S4">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1590,7 +1877,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="WS" package="WS-06S">
+<device name="JST-PH" package="WS-06S">
 <connects>
 <connect gate="G$1" pin="P1" pad="P$1"/>
 <connect gate="G$1" pin="P2" pad="P$2"/>
@@ -1598,6 +1885,32 @@
 <connect gate="G$1" pin="P4" pad="P$4"/>
 <connect gate="G$1" pin="P5" pad="P$5"/>
 <connect gate="G$1" pin="P6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-ZH" package="JST-ZH-S6">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SRS" package="JST-SR-S6">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1719,7 +2032,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="WS" package="WS-05S">
+<device name="JST-PH" package="JST-PH-B5">
 <connects>
 <connect gate="J$1" pin="P1" pad="P$1"/>
 <connect gate="J$1" pin="P2" pad="P$2"/>
@@ -1732,6 +2045,30 @@
 </technologies>
 </device>
 <device name="RAW_MINI" package="RAW_MINI_5">
+<connects>
+<connect gate="J$1" pin="P1" pad="P1"/>
+<connect gate="J$1" pin="P2" pad="P2"/>
+<connect gate="J$1" pin="P3" pad="P3"/>
+<connect gate="J$1" pin="P4" pad="P4"/>
+<connect gate="J$1" pin="P5" pad="P5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-ZH" package="JST-ZH-S5">
+<connects>
+<connect gate="J$1" pin="P1" pad="P1"/>
+<connect gate="J$1" pin="P2" pad="P2"/>
+<connect gate="J$1" pin="P3" pad="P3"/>
+<connect gate="J$1" pin="P4" pad="P4"/>
+<connect gate="J$1" pin="P5" pad="P5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SR" package="JST-SR-S5">
 <connects>
 <connect gate="J$1" pin="P1" pad="P1"/>
 <connect gate="J$1" pin="P2" pad="P2"/>
@@ -1813,7 +2150,7 @@
 <gate name="G$1" symbol="CONN_07" x="-5.08" y="0"/>
 </gates>
 <devices>
-<device name="" package="GP_07M">
+<device name="GOLDPIN" package="GP_07M">
 <connects>
 <connect gate="G$1" pin="P1" pad="1"/>
 <connect gate="G$1" pin="P2" pad="2"/>
@@ -1822,6 +2159,34 @@
 <connect gate="G$1" pin="P5" pad="5"/>
 <connect gate="G$1" pin="P6" pad="6"/>
 <connect gate="G$1" pin="P7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST_ZH" package="JST-ZH-S7">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+<connect gate="G$1" pin="P7" pad="P7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SRS" package="JST-SR-S7">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+<connect gate="G$1" pin="P7" pad="P7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1868,6 +2233,88 @@
 <connect gate="G$1" pin="GPIO9" pad="P21"/>
 <connect gate="G$1" pin="ID_SC" pad="P28"/>
 <connect gate="G$1" pin="ID_SD" pad="P27"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RPI_4_CONN">
+<gates>
+<gate name="G$1" symbol="RPI_4B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GP_40M">
+<connects>
+<connect gate="G$1" pin="(ID_SC)GPIO1" pad="P28"/>
+<connect gate="G$1" pin="(PCM_CLK)GPIO18" pad="P12"/>
+<connect gate="G$1" pin="(PCM_DIN)GPIO20" pad="P38"/>
+<connect gate="G$1" pin="(PCM_DOUT)GPIO21" pad="P40"/>
+<connect gate="G$1" pin="(PCM_FS)GPIO19" pad="P35"/>
+<connect gate="G$1" pin="3V3" pad="P1 P17"/>
+<connect gate="G$1" pin="5V" pad="P2 P4"/>
+<connect gate="G$1" pin="GND" pad="P6 P9 P14 P20 P25 P30 P34 P39"/>
+<connect gate="G$1" pin="GPIO0(ID_SD)" pad="P27"/>
+<connect gate="G$1" pin="GPIO10(MOSI)" pad="P19"/>
+<connect gate="G$1" pin="GPIO11(SCLK)" pad="P23"/>
+<connect gate="G$1" pin="GPIO12(PWM0)" pad="P32"/>
+<connect gate="G$1" pin="GPIO13(PWM1)" pad="P33"/>
+<connect gate="G$1" pin="GPIO14(TXD)" pad="P8"/>
+<connect gate="G$1" pin="GPIO15(RXD)" pad="P10"/>
+<connect gate="G$1" pin="GPIO16" pad="P36"/>
+<connect gate="G$1" pin="GPIO17" pad="P11"/>
+<connect gate="G$1" pin="GPIO2(SDA)" pad="P3"/>
+<connect gate="G$1" pin="GPIO22" pad="P15"/>
+<connect gate="G$1" pin="GPIO23" pad="P16"/>
+<connect gate="G$1" pin="GPIO24" pad="P18"/>
+<connect gate="G$1" pin="GPIO25" pad="P22"/>
+<connect gate="G$1" pin="GPIO26" pad="P37"/>
+<connect gate="G$1" pin="GPIO27" pad="P13"/>
+<connect gate="G$1" pin="GPIO3(SCL)" pad="P5"/>
+<connect gate="G$1" pin="GPIO4(GPCLK0)" pad="P7"/>
+<connect gate="G$1" pin="GPIO5" pad="P29"/>
+<connect gate="G$1" pin="GPIO6" pad="P31"/>
+<connect gate="G$1" pin="GPIO7(CE1)" pad="P26"/>
+<connect gate="G$1" pin="GPIO8(CE0)" pad="P24"/>
+<connect gate="G$1" pin="GPIO9(MISO)" pad="P21"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONN_08">
+<gates>
+<gate name="G$1" symbol="CONN_08" x="-5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="JST-ZHS" package="JST-ZH-S8">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+<connect gate="G$1" pin="P7" pad="P7"/>
+<connect gate="G$1" pin="P8" pad="P8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-SRS" package="JST-SR-S8">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+<connect gate="G$1" pin="P7" pad="P7"/>
+<connect gate="G$1" pin="P8" pad="P8"/>
 </connects>
 <technologies>
 <technology name=""/>
