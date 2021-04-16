@@ -889,6 +889,13 @@
 <smd name="P8" x="3.5" y="0" dx="0.6" dy="1.55" layer="1"/>
 <text x="-5.5" y="-2" size="1.016" layer="21" rot="R90">&gt;NAME</text>
 </package>
+<package name="HIGH_AMP">
+<smd name="P1" x="0" y="4" dx="5" dy="3" layer="1"/>
+<smd name="P2" x="0" y="-4" dx="5" dy="3" layer="1"/>
+</package>
+<package name="VERY_HIGH_AMP">
+<smd name="P1" x="0" y="0" dx="5" dy="7" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MICROSD">
@@ -1519,6 +1526,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="HIGH_AMP" package="HIGH_AMP">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_03">
@@ -2112,6 +2128,14 @@
 <device name="" package="GP_01M">
 <connects>
 <connect gate="G$1" pin="P1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERY_HIGH_AMP" package="VERY_HIGH_AMP">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
 </connects>
 <technologies>
 <technology name=""/>
